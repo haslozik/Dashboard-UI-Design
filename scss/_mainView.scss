@@ -14,7 +14,7 @@
 }
 
 .content {
-    width: 80%;
+    width: 74%;
     height: 80%;
     border-radius: 25px;
     background: $contentBackgroundColor;
@@ -25,7 +25,7 @@
     .content__middleContent {
         float: left;
         height: 100%;
-        width: calc(100% - 110px - 30%);
+        width: calc(100% - 110px - 40%);
         
         /*main view top 'menu'*/
         @import '_mainViewMenu';
