@@ -1,0 +1,49 @@
+.menu {
+    float: left;
+    height: 100%;
+    width: 110px;
+    background: $menuBackgroundColor;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: flex;
+    flex-direction: column;
+
+    .menu__element {
+        height: calc(100% / 3);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #8a898a;
+
+        img {
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+
+        .fas {
+            padding: 25px 0;
+            font-size: 25px;
+            transition: .2s;
+            cursor: pointer;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        &--icons {
+            height: 45% !important;
+            flex-direction: column;
+        }
+    }
+
+}
+
+
+
+
+
+
+
