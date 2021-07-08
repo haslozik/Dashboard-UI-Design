@@ -18,6 +18,23 @@
     height: 80%;
     border-radius: 25px;
     background: $contentBackgroundColor;
+
+    /*left side content menu*/
+    @import '_leftMenu';
+
+    .content__middleContent {
+        float: left;
+        height: 100%;
+        width: calc(100% - 110px - 30%);
+        
+        /*main view top 'menu'*/
+        @import '_mainViewMenu';
+
+        .middleContent__chart {
+            height: 50%;
+            width: 100%;
+        }
+    }
 }
 
 
