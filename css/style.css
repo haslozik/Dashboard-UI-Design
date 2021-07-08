@@ -152,6 +152,46 @@
   background: #555;
 }
 
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent {
+  width: 100%;
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement {
+  margin: 0 10px;
+  width: calc(100% / 3);
+  height: 200px;
+  border-radius: 20px;
+  color: #fff;
+  position: relative;
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--first {
+  background: linear-gradient(45deg, #5e70c2 0%, #d2def9 100%);
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--second {
+  background: linear-gradient(45deg, #5791c4 0%, #ccf5f5 100%);
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--third {
+  background: linear-gradient(45deg, #c66bb7 0%, #ffcdcd 100%);
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement .middleContent__menuElementText {
+  padding: 20px;
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement p {
+  font-weight: 700;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
 .content .content__middleContent .middleContent__chart {
   height: 50%;
   width: 100%;
