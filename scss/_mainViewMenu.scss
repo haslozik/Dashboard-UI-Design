@@ -53,7 +53,6 @@
             display: flex;
 
             .middleContent__menuElement {
-                margin: 0 10px;
                 width: calc(100% / 3);
                 height: 200px;
                 border-radius: 20px;
@@ -62,23 +61,34 @@
 
                 &--first {
                     background: $firstElementBackgroundColor;
+                    margin-right: 20px;
                 }
                 &--second {
                     background: $secondElementBackgroundColor;
                 }
                 &--third {
                     background: $thirdElementBackgroundColor;
+                    margin-left: 20px;
                 }
 
                 .middleContent__menuElementText {
                     padding: 20px;
                 }
 
-                p {
+                h5 {
                     font-weight: 700;
                     position: absolute;
                     bottom: 20px;
                     left: 20px;
+                    font-size: 20px;
+                }
+
+                h6 {
+                    font-weight: 700;
+                    position: absolute;
+                    bottom: 24px;
+                    right: 20px;
+                    font-size: 16px;
                 }
             }
         }

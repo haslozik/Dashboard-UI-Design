@@ -1,3 +1,4 @@
+// clock
 function showTime(){
     var date = new Date();
     var h = date.getHours();
@@ -28,3 +29,12 @@ function showTime(){
 }
 
 showTime();
+
+// /*chart*/
+// const config = {
+//     type: 'line',
+//     data,
+//     options: {}
+// };
+
+

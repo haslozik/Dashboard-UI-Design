@@ -161,7 +161,6 @@
 }
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement {
-  margin: 0 10px;
   width: calc(100% / 3);
   height: 200px;
   border-radius: 20px;
@@ -171,6 +170,7 @@
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--first {
   background: linear-gradient(45deg, #5e70c2 0%, #d2def9 100%);
+  margin-right: 20px;
 }
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--second {
@@ -179,17 +179,27 @@
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement--third {
   background: linear-gradient(45deg, #c66bb7 0%, #ffcdcd 100%);
+  margin-left: 20px;
 }
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement .middleContent__menuElementText {
   padding: 20px;
 }
 
-.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement p {
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement h5 {
   font-weight: 700;
   position: absolute;
   bottom: 20px;
   left: 20px;
+  font-size: 20px;
+}
+
+.content .content__middleContent .middleContent__menu .middleContent__content .middleContent__menuContent .middleContent__menuElement h6 {
+  font-weight: 700;
+  position: absolute;
+  bottom: 24px;
+  right: 20px;
+  font-size: 16px;
 }
 
 .content .content__middleContent .middleContent__chart {
