@@ -30,10 +30,8 @@
         /*main view top 'menu'*/
         @import '_mainViewMenu';
 
-        .middleContent__chart {
-            height: 50%;
-            width: 100%;
-        }
+        /*main view chart*/
+        @import '_mainViewChart';
     }
 }
 

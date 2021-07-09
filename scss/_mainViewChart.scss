@@ -1,0 +1,21 @@
+.middleContent__chart {
+    height: 50%;
+    width: 100%;
+    position: relative;
+    font-family: $font1;
+
+    .middleContent__chartContent {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 90%;
+        height: 90%;
+
+        #myChart {
+            width: 100%;
+            height: 250px !important;
+            position: absolute;
+            bottom: 40px;
+        }
+    }
+}
