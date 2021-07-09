@@ -25,13 +25,19 @@
     .content__middleContent {
         float: left;
         height: 100%;
-        width: calc(100% - 110px - 40%);
+        width: calc(100% - 110px - 34%);
         
         /*main view top 'menu'*/
         @import '_mainViewMenu';
 
         /*main view chart*/
         @import '_mainViewChart';
+    }
+
+    .content__rightContent {
+        float: right;
+        width: 34%;
+        height: 100%;
     }
 }
 

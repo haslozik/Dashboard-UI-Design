@@ -92,7 +92,7 @@
 .content .content__middleContent {
   float: left;
   height: 100%;
-  width: calc(100% - 110px - 40%);
+  width: calc(100% - 110px - 34%);
   /*main view top 'menu'*/
   /*main view chart*/
 }
@@ -109,7 +109,7 @@
   bottom: 0;
   right: 0;
   width: 90%;
-  height: 75%;
+  height: 82%;
 }
 
 .content .content__middleContent .middleContent__menu .middleContent__content .middleContent__time {
@@ -215,13 +215,19 @@
   bottom: 0;
   right: 0;
   width: 90%;
-  height: 90%;
+  height: 100%;
 }
 
 .content .content__middleContent .middleContent__chart .middleContent__chartContent #myChart {
   width: 100%;
-  height: 250px !important;
+  height: 290px !important;
   position: absolute;
-  bottom: 40px;
+  bottom: 50px;
+}
+
+.content .content__rightContent {
+  float: right;
+  width: 34%;
+  height: 100%;
 }
 /*# sourceMappingURL=style.css.map */
